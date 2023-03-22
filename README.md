@@ -46,7 +46,7 @@ With this rudimentary HTML analysis, you can deduct from the scatter chart drawn
 
 ##UPDATE: Mar 22. 2023
 
-Also uploaded a testing suite in the style of the [NIST Statistical Testing Suite](https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software) that allows for bin-caching and testing against a **&Chi;** analysis. Additionally, you can run your own RNGs against this testing bed via a JSON upload. The upload would be structured as an array of random numbers, between 1 and 0. The program will break them into bins for analysis. The format would be as follows:
+Also uploaded a testing suite in the style of the [NIST Statistical Testing Suite](https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software) that allows for bin-caching and testing against a __**&chi;**__ analysis. Additionally, you can run your own RNGs against this testing bed via a JSON upload. The upload would be structured as an array of random numbers, between 1 and 0. The program will break them into bins for analysis. The format would be as follows:
 
 ```
 [
@@ -60,7 +60,7 @@ Also uploaded a testing suite in the style of the [NIST Statistical Testing Suit
 
 Ensure the JSON file has enough runs or numbers within it. The current code of the site only has 100,000 runs, or shots which will be the common nomenclature when we approach the quantum computing methods, so as to give enough data to properly run the analysis across a greater degree of data.
 
-Example Set with **&Chi;** analysis:
+Example Set with __**&chi;**__ analysis:
 ![Alt text](assets/nist-style-suite.png?raw=true "NIST Style Test Bed")
 
 Would love input on this. If this work is used, please cite correctly. 
