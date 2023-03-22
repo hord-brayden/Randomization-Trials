@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNG Testing Kit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="rng-test.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>RNG Testing Kit</h1>
+        <p>Select an RNG method:</p>
+        <select id="rngSelect">
+            <option value="mathRandom">Math.random()</option>
+            <option value="xorShift">XORShift</option>
+            <option value="lcg">LCG</option>
+            <option value="cryptoRandomValues">crypto.getRandomValues</option>
+            <!-- Add more options for different RNG methods here -->
+        </select>        
+        <input type="file" id="jsonFile" accept=".json">
+        <button onclick="runTests()">Run Tests</button>
+        <h2>Results:</h2>
+        <pre id="results"></pre>
+    </div>
+</body>
+</html>

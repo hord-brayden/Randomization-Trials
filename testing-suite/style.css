@@ -1,0 +1,47 @@
+body {
+    background-color: #1e1e1e;
+    color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #0078d4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+select, input[type="file"] {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #2d2d2d;
+    color: #ccc;
+}
+
+pre {
+    background-color: #2d2d2d;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+
+.bin-counts p {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+}
