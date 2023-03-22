@@ -23,5 +23,26 @@ As you can see with the velow images, the coalescing pattern found within the in
 4x4 cells
 ![Alt text](assets/4sq.png?raw=true "Title")
 
+Additionally - Inside of [V2.0 Folder](https://github.com/hord-brayden/Randomization-Trials/tree/main/v2.0) you will find an index file that, when placed into a directory with its sibling script, styles, and privacy, will also output various matrices of current randomization trends on a cartesian plane. Currently there are only 2 models built out:
+
+* Math.Random() which comes native with JS and most/all modern languages
+* XORShift model randomness combined with the Crypto API using crypto.getRandomValues()
+
+Math.Random()
+![Alt text](assets/mathrandom.png?raw=true "Title")
+
+XORShift + Crypto.getRandomValues()
+![Alt text](assets/xorshiftcrypto.png?raw=true "Title")
+
+This will be built out more fully with other well known algorithms like:
+
+* Linear Congruential Generator (LCG)
+* [Mersenne Twister](https://github.com/boo1ean/mersenne-twister)
+* Well Equidistributed Long-period Linear
+And Ultimately with the final test being on
+* AWS Braket using Hybrid computing, density matrix with noise simulation, and Rigetti quantum processors (universal, gate-model machines based on tunable superconducting qubits) based on Aspen-M-2 and M-3 models.
+
+With this rudimentary HTML analysis, you can deduct from the scatter chart drawn on the canvas, inherent randomness and see the distribution of each of these models.
+
 
 Would love input on this. If this work is used, please cite correctly. 
