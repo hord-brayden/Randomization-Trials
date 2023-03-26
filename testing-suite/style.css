@@ -44,4 +44,31 @@ pre {
     padding: 0px !important;
     margin: 0px !important;
 }
+
+#results .main-label {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.results-container {
+    display: flex;
+}
+
+.frequencyFalse {
+    background-color: red !important;
+    color: white !important;
+}
+.frequencyPass {
+    background-color: green !important;
+    color: white !im
+    ;
+}
+
+h2 .main-label {
+    text-align: center;
+}
+
+.results-container .standard-chi-results, .results-container .benfords-chi-results {
+    margin-left: auto;
+    margin-right: auto;
 }
