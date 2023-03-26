@@ -61,6 +61,7 @@ Also uploaded a testing suite in the style of the [NIST Statistical Testing Suit
 Ensure the JSON file has enough runs or numbers within it. The current code of the site only has 100,000 runs, or shots which will be the common nomenclature when we approach the quantum computing methods, so as to give enough data to properly run the analysis across a greater degree of data.
 
 Example Set with [__**&chi;<sup>2</sup>**__ analysis](https://en.wikipedia.org/wiki/Chi-squared_test):
-![Alt text](assets/nist-style-suite.png?raw=true "NIST Style Test Bed")
+Additionally - Updated the testing suite to start supporting other known laws that tangentially apply. Benford's Law is now present, and can be applied to the same data set that's run!
+![Alt text](assets/benfordlaw.png?raw=true "NIST Style Test Bed")
 
 Would love input on this. If this work is used, please cite correctly. 
