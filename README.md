@@ -62,6 +62,7 @@ Ensure the JSON file has enough runs or numbers within it. The current code of t
 
 Example Set with [__**&chi;<sup>2</sup>**__ analysis](https://en.wikipedia.org/wiki/Chi-squared_test):
 Additionally - Updated the testing suite to start supporting other known laws that tangentially apply. Benford's Law is now present, and can be applied to the same data set that's run!
+
 ![Alt text](assets/benfordlaw.png?raw=true "NIST Style Test Bed")
 
 Would love input on this. If this work is used, please cite correctly. 
